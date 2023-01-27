@@ -24,6 +24,7 @@ public class Repository {
         }
         products = temp;
     }
+
     public Product[] findAll() {
         return products;
     }
